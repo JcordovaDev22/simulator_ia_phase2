@@ -4,7 +4,7 @@ import os
 # Añade la ruta 'src' al path de Python de forma dinámica
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
-from core.engine import SimulatorEngine
+from core.physics_engine import SimulatorEngine
 
 def test_simulator_initialization():
     engine = SimulatorEngine(simulation_id="TEST-SIM-01")

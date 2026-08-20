@@ -2,7 +2,7 @@
 VelocityFlow AI - Engine Core
 Gestión del ciclo de simulación y cálculos de separación de aeronaves.
 """
-from core.models import Aircraft
+from core.ai_models import Aircraft
 
 class SimulatorEngine:
     def __init__(self, simulation_id: str):

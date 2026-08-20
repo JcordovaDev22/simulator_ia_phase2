@@ -1,8 +1,8 @@
 """
 Unit tests for VelocityFlow AI Aircraft Models and Separation Logic
 """
-from core.models import Aircraft
-from core.engine import calculate_separation_distance, evaluate_safety_separation
+from core.ai_models import Aircraft
+from core.physics_engine import calculate_separation_distance, evaluate_safety_separation
 
 def test_aircraft_initialization():
     """Valida la correcta instanciación de los atributos de la aeronave."""
